@@ -2,7 +2,7 @@
 
 > TLDR; This repository is a sample project demonstrating the basics of managing Infrastructure as Code (IaC) using Terraform Cloud and AWS.
 
-## Course attachement
+## Course attachement extra comment to detach fork
 
 > This repository is best consumed while or after following the course attachment 👇
 
