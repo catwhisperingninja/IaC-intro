@@ -23,11 +23,6 @@ provider "aws" {
   region  = "us-west-2"
 }
 
-variable "sample_public_key" {
-  description = "Sample environment public key value"
-  type        = string
-
-}
 
 data "aws_ami" "ubuntu" {
   most_recent = true
