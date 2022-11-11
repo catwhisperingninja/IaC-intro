@@ -26,7 +26,6 @@ provider "aws" {
 variable "sample_public_key" {
   description = "Sample environment public key value"
   type        = string
-  sample_public_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILKAov5M6o14jHHEKR0K/IpY2osaS8wwvX9ry+Pwr1AZ Github Actions YT IaC Tutorial"
 
 }
 
