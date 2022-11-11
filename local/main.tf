@@ -2,7 +2,7 @@ terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 3.74.2"
+      version = "~> 3.75"
     }
   }
 
@@ -10,7 +10,7 @@ terraform {
 }
 
 provider "aws" {
-  shared_credentials_file = "~/.aws/credentials"
+  shared_credentials_file = "/home/lauralopez/.aws/credentials"
   region  = "us-west-2"
 }
 
