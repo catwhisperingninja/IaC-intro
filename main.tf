@@ -1,6 +1,6 @@
 terraform {
-  backend "remote" {
-    organization = "glich-stream"
+  cloud {
+    organization = "llopeztev"
 
     workspaces {
       name = "IaC-intro"
@@ -10,7 +10,7 @@ terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 3.48"
+      version = "~> 3.74.2"
     }
   }
 
@@ -18,8 +18,8 @@ terraform {
 }
 
 provider "aws" {
-  profile = "default"
-  region  = "eu-west-1"
+  shared_credentials_file = "~/.aws/credentials"
+  region  = "us-west-2"
 }
 
 variable "sample_public_key" {
