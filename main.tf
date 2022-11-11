@@ -18,7 +18,7 @@ terraform {
 }
 
 provider "aws" {
-  shared_credentials_file = "/home/lauralopez.aws/credentials"
+  shared_credentials_file = "/home/lauralopez/.aws/credentials"
   region  = "us-west-2"
 }
 
